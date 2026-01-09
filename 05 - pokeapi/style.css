@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;500;700&display=swap');
+
+        body {
+            background: linear-gradient(to bottom right, #55aaff, #336699);
+            color: white;
+            font-family: 'Oxanium', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .pokedex {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            text-align: center;
+            width: 300px;
+            color: #333;
+        }
+
+        .pokemon_image {
+            width: 150px;
+            height: 150px;
+            object-fit: contain; /* Garante que a imagem não estique */
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            border: 4px solid #333;
+            margin-bottom: 10px;
+        }
+
+        .pokemon_data {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: capitalize; /* Primeira letra maiúscula */
+            margin-bottom: 5px;
+        }
+
+        .pokemon_number {
+            color: #777;
+            font-size: 18px;
+        }
+
+        .form {
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .input_search {
+            width: 70%;
+            padding: 10px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            font-family: 'Oxanium', cursive;
+            font-size: 16px;
+        }
+
+        .btn-search {
+            width: 30%;
+            padding: 10px;
+            background-color: #ff3333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-search:hover { background-color: #cc0000; }
+        .erro { color: red; font-size: 14px; margin-top: 10px; min-height: 20px;}
+    

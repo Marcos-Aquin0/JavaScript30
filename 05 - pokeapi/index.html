@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="pokedex">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" 
+             alt="pokemon" 
+             class="pokemon_image" 
+             id="pokemonImage">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number" id="pokemonNumber">25</span> - 
+            <span class="pokemon_name" id="pokemonName">Pikachu</span>
+        </h1>
+
+        <form class="form" id="formBusca">
+            <input type="text" class="input_search" id="inputSearch" placeholder="Nome ou ID" required>
+            <button type="submit" class="btn-search">Buscar</button>
+        </form>
+        
+        <div class="erro" id="msgErro"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
